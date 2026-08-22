@@ -136,7 +136,7 @@
     <header>
       <div class="brand"><span class="dot" aria-hidden="true"></span>BLOCK BLUUP</div>
       <h1>Gizlilik Politikası</h1>
-      <p class="meta"><strong>Yürürlük tarihi:</strong> 4 Ağustos 2026</p>
+      <p class="meta"><strong>Yürürlük tarihi:</strong> 22 Ağustos 2026</p>
       <nav class="language-nav" aria-label="Dil seçimi">
         <a href="#turkce">Türkçe</a>
         <a href="#english" lang="en">English</a>
@@ -180,7 +180,7 @@
         </li>
         <li>
           <strong>Google Analytics for Firebase</strong>
-          Uygulama kullanımı, oturumlar, etkinlikler, cihaz ve uygulama bilgileri gibi ölçüm verilerini toplayarak oyunun kullanımını anlamamıza yardımcı olur.
+          Oyunun kullanımını anlamaya yönelik ölçüm altyapısıdır. Firebase Analytics veri toplama bu sürümde varsayılan olarak ve uygulama kodu tarafından kapalı tutulur; açık bir kullanıcı tercihi olmadan oyun etkinlikleri Analytics'e gönderilmez.
         </li>
         <li>
           <strong>Firebase Crashlytics</strong>
@@ -191,12 +191,13 @@
 
       <h2>5. Reklam tercihleri ve izinler</h2>
       <p>Bulunduğunuz bölgeye ve geçerli mevzuata bağlı olarak kişiselleştirilmiş reklamlar ve ilgili veri işleme faaliyetleri için onayınız istenebilir. Sunulan onay ekranından tercihlerinizi yönetebilirsiniz. Ayrıca Android cihazınızın gizlilik/reklam ayarlarından reklam kimliğini sıfırlayabilir veya silebilir ve reklam kişiselleştirme tercihlerinizi değiştirebilirsiniz. Bu tercihler reklam sayısını tamamen ortadan kaldırmayabilir; kişiselleştirme biçimini etkileyebilir.</p>
+      <p>Firebase Analytics veri toplama bu sürümde kapalıdır. Firebase Crashlytics ise uygulama çökmelerini ve teknik hataları tespit etmek amacıyla Analytics onayından ayrı olarak çalışır.</p>
 
       <h2>6. Verilerin paylaşılması</h2>
       <p>Geliştirici kişisel bilgilerinizi satmaz. Teknik veriler; yukarıda açıklanan amaçlarla Google hizmetleriyle, yasal bir zorunluluğun yerine getirilmesi için yetkili kurumlarla veya hakların, güvenliğin ve uygulama bütünlüğünün korunması için gerekli olduğu ölçüde paylaşılabilir. Google Mobile Ads SDK tarafından toplanan bazı veriler reklamcılık, analiz ve sahtekârlığı önleme amaçlarıyla Google'a iletilir.</p>
 
       <h2>7. Saklama ve güvenlik</h2>
-      <p>Veriler yalnızca belirtilen amaçlar ve yasal yükümlülükler için gerekli süre boyunca saklanır. Saklama süreleri kullanılan hizmete ve verinin niteliğine göre değişebilir. Örneğin Firebase Crashlytics, çökme izlerini ve ilişkili tanımlayıcıları kendi geçerli saklama uygulamalarına göre işler. Üçüncü tarafların saklama ve silme uygulamaları kendi politikalarına tabidir.</p>
+      <p>Veriler yalnızca belirtilen amaçlar ve yasal yükümlülükler için gerekli süre boyunca saklanır. Saklama süreleri kullanılan hizmete ve verinin niteliğine göre değişebilir. Firebase'in güncel açıklamasına göre Crashlytics; çökme izlerini ve ilişkili tanımlayıcıları, canlı ve yedek sistemlerden kaldırma sürecine başlamadan önce 90 gün tutar. Üçüncü tarafların saklama ve silme uygulamaları kendi politikalarına tabidir.</p>
       <p>Google hizmetleri aktarım sırasında şifreleme gibi teknik ve idari güvenlik önlemleri kullanır. Bununla birlikte hiçbir elektronik aktarım veya saklama yönteminin tamamen risksiz olduğu garanti edilemez.</p>
 
       <h2>8. Uluslararası veri aktarımı</h2>
@@ -222,7 +223,7 @@
 
     <section id="english" lang="en">
       <h1>Privacy Policy</h1>
-      <p class="meta"><strong>Effective date:</strong> August 4, 2026</p>
+      <p class="meta"><strong>Effective date:</strong> August 22, 2026</p>
 
       <div class="notice">
         <p>This Privacy Policy explains how information is handled in the Block Bluup mobile game published by Emirhan Gürkan (the "Developer").</p>
@@ -255,19 +256,20 @@
       <p>Block Bluup uses the following Google services. These services may process data under their own terms and privacy policies:</p>
       <ul class="service-list">
         <li><strong>Google AdMob / Google Mobile Ads SDK</strong> may automatically collect and share IP address, app interactions, diagnostic information, advertising ID, and other device identifiers for ad serving and measurement.</li>
-        <li><strong>Google Analytics for Firebase</strong> collects measurement information such as app usage, sessions, events, device information, and app information to help us understand how the game is used.</li>
+        <li><strong>Google Analytics for Firebase</strong> provides measurement infrastructure intended to help us understand how the game is used. Firebase Analytics collection is disabled by default and by application code in this release; game events are not sent to Analytics without an explicit user choice.</li>
         <li><strong>Firebase Crashlytics</strong> processes crash traces, error messages, app and device information, timestamps, and installation or crash identifiers to help us diagnose technical issues.</li>
       </ul>
       <p>For details, please review the <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Privacy Policy</a>, <a href="https://policies.google.com/technologies/ads" rel="noopener noreferrer">Google advertising technologies information</a>, and <a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">Firebase Privacy and Security information</a>.</p>
 
       <h2>5. Advertising choices and consent</h2>
       <p>Depending on your location and applicable law, you may be asked for consent for personalized ads and related data processing. You may manage your choices through the consent interface presented to you. You may also reset or delete your advertising ID and adjust ad personalization choices in your Android device's privacy or advertising settings. These choices may not remove all ads; they may affect how ads are personalized.</p>
+      <p>Firebase Analytics collection is disabled in this release. Firebase Crashlytics operates separately from Analytics consent to identify app crashes and technical faults.</p>
 
       <h2>6. Data sharing</h2>
       <p>The Developer does not sell your personal information. Technical data may be shared with Google services for the purposes described above, with public authorities where legally required, or where reasonably necessary to protect rights, safety, and app integrity. Some data collected by the Google Mobile Ads SDK is transmitted to Google for advertising, analytics, and fraud-prevention purposes.</p>
 
       <h2>7. Retention and security</h2>
-      <p>Data is retained only as long as needed for the stated purposes and legal obligations. Retention periods vary by service and type of data. For example, Firebase Crashlytics handles crash traces and associated identifiers according to its then-current retention practices. Third-party retention and deletion practices are governed by their respective policies.</p>
+      <p>Data is retained only as long as needed for the stated purposes and legal obligations. Retention periods vary by service and type of data. According to Firebase's current disclosure, Crashlytics keeps crash traces and associated identifiers for 90 days before beginning removal from live and backup systems. Third-party retention and deletion practices are governed by their respective policies.</p>
       <p>Google services use technical and organizational safeguards such as encryption in transit. However, no electronic transmission or storage method can be guaranteed to be completely risk-free.</p>
 
       <h2>8. International data transfers</h2>
